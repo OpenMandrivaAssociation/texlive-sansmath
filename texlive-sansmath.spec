@@ -45,6 +45,7 @@ The package defines a new math version sans, and a command
 %doc %{_texmfdistdir}/doc/latex/sansmath/miscdoc.sty
 %doc %{_texmfdistdir}/doc/latex/sansmath/sansmath.pdf
 %doc %{_texmfdistdir}/doc/latex/sansmath/sansmath.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +56,5 @@ The package defines a new math version sans, and a command
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
