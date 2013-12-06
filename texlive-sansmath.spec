@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-sansmath
 Version:	1.1
-Release:	4
+Release:	5
 Summary:	Maths in a sans font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sansmath
