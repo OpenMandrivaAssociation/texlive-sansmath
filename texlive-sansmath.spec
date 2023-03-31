@@ -1,6 +1,6 @@
 Name:		texlive-sansmath
 Version:	17997
-Release:	1
+Release:	2
 Summary:	Maths in a sans font
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sansmath
