@@ -3,7 +3,7 @@ Version:	17997
 Release:	2
 Summary:	Maths in a sans font
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sansmath
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sansmath
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmath.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sansmath.doc.r%{version}.tar.xz
